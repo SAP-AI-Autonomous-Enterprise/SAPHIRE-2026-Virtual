@@ -61,7 +61,7 @@ Hear from SAP and BCG (Boston Consulting Group) about redefining the future of f
 - Maria Demaree — SVP and Chief Information Officer, Lockheed Martin
 
 **Description:**
-In the age of AI, advantage comes from being connected and ready to act. Every customer journey begins with a moment that demands change. Real value is created when that moment turns into momentum. Powered by SAP Business Suite, these transformations demonstrate how connection and SAP Business AI drive productivity today and fuel growth tomorrow.
+In the age of AI, advantage comes from being connected and ready to act. Every customer journey begins with a moment that demands change. Real value is created when that moment turns into momentum. Powered by SAP Business Suite, these transformations demonstrate how connection and SAP Business AI drive productivity today and fuel growth tomorrow...
 
 [▶ Watch on-demand](https://www.sap.com/events/sapphire/virtual/flow/sap/sv26/catalog/page/catalog/session/1774887883045001eJnq)
 
