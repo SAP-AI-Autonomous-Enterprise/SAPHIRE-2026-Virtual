@@ -4,6 +4,9 @@ on:
   workflow_dispatch:   # manual trigger
   schedule:
     - cron: "0 * * * *"   # runs hourly to check for changes
+permissions:
+  contents: write
+
 
 jobs:
   sync-calendar:
@@ -27,6 +30,8 @@ jobs:
           python scripts/fetch_calendar.py
 
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "Calendar Bot"
           git config --global user.email "bot@example.com"
