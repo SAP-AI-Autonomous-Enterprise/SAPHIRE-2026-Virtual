@@ -1,0 +1,35 @@
+name: Outlook Calendar Sync
+
+on:
+  workflow_dispatch:   # manual trigger
+  schedule:
+    - cron: "0 * * * *"   # runs hourly to check for changes
+
+jobs:
+  sync-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Fetch Outlook Calendar Events
+        env:
+          OUTLOOK_TOKEN: ${{ secrets.OUTLOOK_TOKEN }}
+        run: |
+          python scripts/fetch_calendar.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Calendar Bot"
+          git config --global user.email "bot@example.com"
+          git add .
+          git commit -m "Sync calendar events"
+          git push
