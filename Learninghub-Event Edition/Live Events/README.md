@@ -1,0 +1,13 @@
+# 📅 Live Events Calendar
+| Date | Event | Link |
+|------|--------|------|
+| 2026-07-02 | Registration confirmation: Advanced Invoicing Processes in SAP S-4HANA | [Registration confirmation: Advanced Invoicing Processes in SAP S-4HANA](Registration confirmation: Advanced Invoicing Processes in SAP S-4HANA.md) |
+| 2026-07-17 | Registration confirmation: Getting Started With ABAP Cloud Development | [Registration confirmation: Getting Started With ABAP Cloud Development](Registration confirmation: Getting Started With ABAP Cloud Development.md) |
+| 2026-07-31 | Registration confirmation: Getting Started With Clean Core Extensibility | [Registration confirmation: Getting Started With Clean Core Extensibility](Registration confirmation: Getting Started With Clean Core Extensibility.md) |
+| 2026-07-10 | Registration confirmation: Getting Started With Development Using SAP BTP ABAP Environment | [Registration confirmation: Getting Started With Development Using SAP BTP ABAP Environment](Registration confirmation: Getting Started With Development Using SAP BTP ABAP Environment.md) |
+| 2026-08-07 | Registration confirmation: Joule in ABAP | [Registration confirmation: Joule in ABAP](Registration confirmation: Joule in ABAP.md) |
+| 2026-07-24 | Registration confirmation: Overview of Debugging tools in SAP | [Registration confirmation: Overview of Debugging tools in SAP](Registration confirmation: Overview of Debugging tools in SAP.md) |
+| 2026-07-29 | Registration confirmation: Getting Started With ABAP Custom Code Migration For SAP S-4HANA Cloud | [Registration confirmation: Getting Started With ABAP Custom Code Migration For SAP S-4HANA Cloud](Registration confirmation: Getting Started With ABAP Custom Code Migration For SAP S-4HANA Cloud.md) |
+| 2026-08-25 | Registration confirmation: Getting Started With Joule for developers, SAP Build Code AI Capabilities | [Registration confirmation: Getting Started With Joule for developers, SAP Build Code AI Capabilities](Registration confirmation: Getting Started With Joule for developers, SAP Build Code AI Capabilities.md) |
+| 2026-07-31 | Registration confirmation: Using Joule for your development in SAP Business Technology Platform | [Registration confirmation: Using Joule for your development in SAP Business Technology Platform](Registration confirmation: Using Joule for your development in SAP Business Technology Platform.md) |
+| 2026-07-21 | Registration confirmation: SAP Cloud Application Programming Model: From Development to Deployment | [Registration confirmation: SAP Cloud Application Programming Model: From Development to Deployment](Registration confirmation: SAP Cloud Application Programming Model: From Development to Deployment.md) |
