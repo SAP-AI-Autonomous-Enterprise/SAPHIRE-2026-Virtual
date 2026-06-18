@@ -33,8 +33,6 @@ jobs:
         run: |
           git config --global user.name "Calendar Bot"
           git config --global user.email "bot@example.com"
-          git fetch https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
           git add .
           git commit -m "Sync calendar events" || echo "No changes to commit"
-          git pull --rebase https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main || echo "No remote changes"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref }}
